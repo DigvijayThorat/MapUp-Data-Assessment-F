@@ -13,7 +13,9 @@ def generate_car_matrix(df)->pd.DataFrame:
                           where 'id_1' and 'id_2' are used as indices and columns respectively.
     """
     # Write your logic here
-
+dataset_path = 'dataset-1.csv'
+result_matrix = generate_car_matrix(dataset_path)
+print(result_matrix)
     return df
 
 
